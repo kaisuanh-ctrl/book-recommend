@@ -1,11 +1,70 @@
- 
+.backgroudcolor {
+  background-color: #EDEBEA; }
 
- .bg-dark-green {
+
+ p{
+  text-indent: 80px; 
+}
+
+
+.blue-text {
+  color: #002291
+}
+
+ h1 {
+  font-family: 'Sriracha', cursive; /* ฟ้อนต์ Sriracha */
+  font-weight: 400;                 /* น้ำหนัก Regular */
+  font-size: 48px;                  /* ขนาดตัวอักษร */
+  line-height: 1.2;                 /* ระยะบรรทัด (ปรับให้บาลานซ์) */
+  color: #002291;                      /* สีข้อความ (ปรับได้) */
+}
+
+.Mitr {
+  font-family: 'Mitr', sans-serif; /* ฟ้อนต์ Mitr */
+  font-weight: 400;                /* Regular 400 */
+  font-size: 24px;                 /* ขนาดตัวอักษร (ปรับได้) */
+}
+
+ .container p {
+    font-weight: normal; /* ตั้งค่า font-weight ให้ <p> ปกติ */
+  }
+
+.fw-bold {
+  color: #910202ef;  /* สีเดียวกันกับตัวหนาอื่น ๆ */
+}
+
+
+.backgroundcolor {
+  background: linear-gradient(to right, #ff9a9e, #fcf195, #df2f3d);
+  /* ไล่สีจากชมพู → ครีม → ฟ้า */
+  padding: 40px 0; /* เพิ่มช่องว่างด้านบนล่าง */
+}
+
+.bg-dark-green {
       background-color: #32462f;
       color: white; 
     }
 
- .custom-bg {
-    background-color: #f8f0e5; 
-    color: #5f4633;          
-  }
+
+  
+  /* กำหนดสไตล์ให้คอลัมน์ฝั่งซ้าย */
+.left-column {
+  background-color: #fffbbc; /* สีครีมอ่อน */
+  padding: 20px; /* เพิ่มช่องว่างภายใน */
+  border-radius: 5px; /* ทำให้ขอบมนนิดหน่อย (ถ้าต้องการ) */
+}
+
+/* กำหนดสไตล์ให้คอลัมน์ฝั่งขวา */
+.right-column {
+  background-color: #ffeee3; /* สีเทาอ่อน */
+  padding: 20px; /* เพิ่มช่องว่างภายใน */
+  border-radius: 5px; 
+}
+
+
+
+body {
+  background-color: #cacacad2; /* สีครีม */
+  margin: 0;
+  font-family: sans-serif;
+}
